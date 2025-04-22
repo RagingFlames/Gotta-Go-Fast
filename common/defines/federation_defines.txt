@@ -1,0 +1,5 @@
+NGameplay = {
+	FEDERATION_COHESION_RANGE			= 200	# max cohesion range
+	FEDERATION_JOIN_COHESION_PENALTY	= -75	# Cohesion loss every time a new member is added to the federation (after the first two)
+	FEDERATION_LEAVE_COHESION_PENALTY	= -75 # Cohesion loss every time a member leaves the federation
+	}

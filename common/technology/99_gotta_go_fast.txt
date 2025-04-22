@@ -1,0 +1,49 @@
+## Various speed buffs to offset accelerated game settings
+## you can set pop growth and tech cost to reach end game in 2300, but your buildings, influence, and megastructures dont build proportionally faster
+## the point of this tech is to add some buffs to help balance that out
+# ##################
+# Timey whimey wibbly wobbly
+# ##################
+
+tech_basic_going_fast_1 = {
+	cost = 0
+	area = society
+	tier = 0
+	category = { new_worlds }
+	start_tech = yes
+	modifier = {
+		building_time_mult=-0.15
+		ship_archaeological_site_excavation_speed_mult=0.75
+		
+
+	}
+
+
+}
+tech_basic_going_fast_2 = {
+	cost = 0
+	area = society
+	tier = 0
+	category = { new_worlds }
+	start_tech = yes
+	modifier = {
+
+		country_base_influence_produces_add=1
+		megastructure_build_speed_mult=0.2
+
+	}
+
+
+}
+tech_basic_going_fast_3 = {
+	cost = 0
+	area = society
+	tier = 0
+	category = { new_worlds }
+	start_tech = yes
+	modifier = {
+		ship_experience_gain_mult=2
+		army_experience_gain_mult=2
+
+	}
+
