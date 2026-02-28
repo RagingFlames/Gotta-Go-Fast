@@ -4,4 +4,4 @@ tags={
 	"Gameplay"
 }
 name="Gotta-Go-Fast-Tech-314x"
-supported_version="3.14.*"
+supported_version="4.14.*"
