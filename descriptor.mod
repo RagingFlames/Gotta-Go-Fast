@@ -3,5 +3,5 @@ tags={
 	"Balance"
 	"Gameplay"
 }
-name="Gotta-Go-Fast-Tech-314x"
+name="Gotta-Go-Fast-Tech"
 supported_version="4.14.*"
